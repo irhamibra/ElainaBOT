@@ -4009,7 +4009,7 @@ ${desc}`)
             await tobz.sendSeen(from) 
             }
         }
-    } catch (err)
+    } catch (err) {
         console.log(color('[ERROR]', 'red'), err)
         //tobz.kill().then(a => console.log(a))
     }
